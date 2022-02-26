@@ -1,0 +1,126 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main img{
+    border: 2px solid #3F9795;
+    border-radius: 50px;
+}
+
+.origami{
+    border-width: 2px;
+
+    padding: 10px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: #3F9795
+}
+
+.header, .grid, .bodyimg{
+    color: white;
+}
+
+.bodyimg  h1{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+
+    font-family: cursive;
+}
+
+.bodyimg  h3{
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+
+    font-family: cursive;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: #3F9795;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(33, 33, 33);
+}
+
+.aboutus h1{
+    padding:20px;
+
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+
+    font-family: cursive;
+    color: white;
+}
+
+.aboutus h3{
+    padding:20px;
+
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+    font-family: cursive;
+    color: white;
+}
+
+/*.origami:hover{
+    transform: scale(1.2);
+}*/
+
+a{
+    text-decoration: none;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+
+    padding:20px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+
+    font-family: cursive;
+    color: white;
+}
+
+.followus h1{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+
+    font-family: cursive;
+    color: white;
+}
+
+.header{
+    margin: 3px;
+}

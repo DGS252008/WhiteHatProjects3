@@ -1,0 +1,63 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #3F9795;
+
+    padding: 10px;
+
+    width: 303.8px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header, .grid, .bodyimg{
+    color: white;
+}
+
+.bodyimg  h1{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+
+    font-family: cursive;
+}
+
+.bodyimg  h3{
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+
+    font-family: cursive;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: #3F9795;
+}
+
+a :link{
+    color: white;
+}
+
+a :visited{
+    color: white;
+}
